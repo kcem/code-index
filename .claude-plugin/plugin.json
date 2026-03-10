@@ -1,0 +1,9 @@
+{
+  "name": "code-index",
+  "version": "0.1.0",
+  "description": "Token-efficient codebase exploration via universal-ctags — symbol search, outlines, and precise code retrieval without reading whole files",
+  "author": {
+    "name": "KCem"
+  },
+  "keywords": ["ctags", "code-index", "symbol-search", "token-efficiency"]
+}
