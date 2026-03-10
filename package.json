@@ -1,6 +1,6 @@
 {
   "name": "pi-code-index",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Fast, precise codebase exploration via universal-ctags — symbol search, outlines, exact code retrieval, global index storage, and cross-project search",
   "keywords": ["pi-package", "ctags", "code-index", "symbol-search"],
   "author": "KCem",

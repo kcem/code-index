@@ -9,9 +9,9 @@
   "plugins": [
     {
       "name": "code-index",
-      "source": ".",
+      "source": "./",
       "description": "Fast, precise codebase exploration via universal-ctags — symbol search, outlines, and exact code retrieval without reading whole files",
-      "version": "0.2.0"
+      "version": "0.3.1"
     }
   ]
 }
