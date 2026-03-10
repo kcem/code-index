@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/pi-code-index)](https://www.npmjs.com/package/pi-code-index)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-buycoffee.to-orange.svg)](https://buycoffee.to/kcem)
 
 Token-efficient codebase exploration via [universal-ctags](https://ctags.io/). A pure skill plugin that teaches AI coding agents to search symbols, browse outlines, and retrieve precise code ranges — saving 80-98% of context window tokens compared to reading whole files. No MCP server, no runtime dependencies beyond the `ctags` binary.
 
@@ -65,4 +66,4 @@ MIT
 
 100% free, 100% open source, 100% powered by coffee. Saved your tokens? A coffee keeps the next plugin brewing.
 
-[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-buycoffee.to-orange?style=for-the-badge)](https://buycoffee.to/kcem)
+[☕ Buy me a coffee](https://buycoffee.to/kcem)
