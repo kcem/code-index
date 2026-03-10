@@ -2,21 +2,21 @@
 name: code-indexing
 version: 0.1.0
 description: >-
-  This skill should be used for codebase exploration, symbol search, "find
-  class", "find function", "where is X defined", "what does this project
-  contain", understanding project structure, navigating unfamiliar code, "show
-  me an outline", "list all classes", "what symbols are in this file". Activates
-  when exploring code structure, looking up definitions, building mental models
-  of a codebase, or performing token-efficient navigation. Uses universal-ctags
-  for symbol indexing, ctags-based symbol lookup, file and project outlines, and
-  line-range reads to minimize token usage.
+  This skill should be used INSTEAD OF reading whole files or guessing file
+  paths when exploring unfamiliar or large codebases. Use it when: searching
+  for symbol definitions ("find class UserService", "where is get_user
+  defined"), understanding project structure ("what classes exist", "show me
+  an outline"), or navigating code you haven't seen before. Index once with
+  ctags, then search symbols precisely — faster and more accurate than
+  grepping source files. Do NOT use for small projects or when you already
+  know which file to read. Requires universal-ctags.
 ---
 
-# Code Indexing — Token-Efficient Codebase Exploration
+# Code Indexing — Fast, Precise Codebase Exploration
 
-Navigate and explore codebases by indexing symbols with universal-ctags, then
-searching the index instead of reading entire files. Every lookup starts with
-the `.ctags` index — never read a whole file when a symbol search will do.
+Use this skill when you need to explore or navigate a codebase without reading
+whole files. Index once with ctags, then search symbols precisely. **Default to
+this over Glob+Read for any project with 10+ source files.**
 
 **Allowed tools:** Use Bash to run `ctags` commands (indexing, version checks).
 Use Grep to search `.ctags` files. Use Read with offset/limit for symbol retrieval.
@@ -204,12 +204,10 @@ src/users/repository.py
 
 This gives a high-level map of the codebase without reading any source files.
 
-## Token Savings Rules
+## Best Practices
 
-These rules minimize token consumption during codebase exploration:
-
-1. **Always search `.ctags` before reading whole files.** A symbol lookup costs
-   a fraction of the tokens compared to reading an entire module.
+1. **Always search `.ctags` before reading whole files.** A symbol lookup is
+   faster and more focused than reading an entire module.
 2. **Use line ranges from ctags entries.** Read only the lines that define the
    symbol you need (`offset` + `limit`), not the surrounding file.
 3. **Prefer outlines over full reads.** When the user asks "what's in this

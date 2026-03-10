@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/pi-code-index)](https://www.npmjs.com/package/pi-code-index)
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-buycoffee.to-orange.svg)](https://buycoffee.to/kcem)
 
-Token-efficient codebase exploration via [universal-ctags](https://ctags.io/). A pure skill plugin that teaches AI coding agents to search symbols, browse outlines, and retrieve precise code ranges — saving 80-98% of context window tokens compared to reading whole files. No MCP server, no runtime dependencies beyond the `ctags` binary.
+Fast, precise codebase exploration via [universal-ctags](https://ctags.io/). A pure skill plugin that teaches AI coding agents to search symbols, browse outlines, and retrieve exact code ranges — instead of reading whole files. No MCP server, no runtime dependencies beyond the `ctags` binary.
 
 ## How it works
 
