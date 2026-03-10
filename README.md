@@ -1,5 +1,9 @@
 # code-index
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/pi-code-index)](https://www.npmjs.com/package/pi-code-index)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-buycoffee.to-orange)](https://buycoffee.to/kcem)
+
 Token-efficient codebase exploration via [universal-ctags](https://ctags.io/). Search symbols, browse outlines, and retrieve precise code ranges — without reading whole files.
 
 A pure skill plugin. No MCP server, no runtime dependencies beyond the `ctags` binary. Works with any AI coding agent that supports Agent Skills.
@@ -35,14 +39,12 @@ ctags --version
 
 ### Claude Code
 
-**From a marketplace:**
-
 ```bash
 claude plugin marketplace add https://github.com/kcem/code-index.git
 claude plugin install code-index@code-index
 ```
 
-**Or clone and add locally:**
+Or clone and add locally:
 
 ```bash
 git clone https://github.com/kcem/code-index.git
@@ -52,30 +54,24 @@ claude plugin install code-index@code-index
 
 ### GitHub Copilot CLI
 
-**Copy the skill into your project:**
+```bash
+copilot plugin install kcem/code-index
+```
+
+Or copy the skill manually:
 
 ```bash
 mkdir -p .github/skills/code-indexing
 cp skills/code-indexing/SKILL.md .github/skills/code-indexing/SKILL.md
 ```
 
-Copilot auto-discovers skills from `.github/skills/`.
-
-**Or install as a plugin:**
-
-```bash
-copilot plugin install kcem/code-index
-```
-
 ### pi.dev
-
-**From Git:**
 
 ```bash
 pi install git:github.com/kcem/code-index
 ```
 
-**From npm** (after publishing):
+Or from npm:
 
 ```bash
 pi install npm:pi-code-index
@@ -83,7 +79,7 @@ pi install npm:pi-code-index
 
 ### Manual (any agent)
 
-Copy `skills/code-indexing/SKILL.md` into your agent's skills directory. The skill is a standard markdown file that works with any agent supporting the Agent Skills format.
+Copy `skills/code-indexing/SKILL.md` into your agent's skills directory. Works with any agent supporting the Agent Skills format.
 
 ## What's in the box
 
@@ -92,11 +88,11 @@ code-index/
 ├── .claude-plugin/
 │   ├── plugin.json           # Claude Code plugin manifest
 │   └── marketplace.json      # Standalone marketplace for Claude Code
-├── package.json              # pi.dev package definition
+├── package.json              # pi.dev / npm package
 ├── skills/
 │   └── code-indexing/
 │       └── SKILL.md          # The skill — works across all platforms
-├── LICENSE                   # MIT
+├── LICENSE
 └── README.md
 ```
 
@@ -114,4 +110,4 @@ universal-ctags supports 100+ languages. To add more, the agent extends the `.ct
 
 100% free, 100% open source, 100% powered by coffee. Saved your tokens? A coffee keeps the next plugin brewing.
 
-[Buy me a coffee](https://buycoffee.to/kcem)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-buycoffee.to-orange?style=for-the-badge)](https://buycoffee.to/kcem)
