@@ -1,0 +1,5 @@
+--recurse
+--fields=+neKS
+--extras=+q
+--output-format=u-ctags
+--exclude=.git

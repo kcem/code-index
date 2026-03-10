@@ -139,8 +139,8 @@ Run this on the **first index of the session** — whether the config exists or 
    plus only what's not already covered by existing configs.
 
 6. **Inform the user** — briefly summarize what was detected and configured.
-   If any changes were made to `.ctags.d/`, suggest committing them (it's
-   project configuration, like `.editorconfig`).
+   If any changes were made to `.ctags.d/` or `.gitignore`, offer to commit
+   them (it's project configuration, like `.editorconfig`).
 
 ### Config examples
 
