@@ -56,7 +56,7 @@ Copy `skills/code-indexing/SKILL.md` into your agent's skills directory. Works w
 
 ## Supported languages
 
-Default: **Python, TypeScript, JavaScript** — the agent can extend to any of the 100+ languages universal-ctags supports.
+All **100+ languages** supported by universal-ctags — Python, TypeScript, JavaScript, Go, Rust, Java, C/C++, Ruby, PHP, and many more. No configuration needed — languages are detected automatically.
 
 ## License
 
