@@ -38,14 +38,14 @@ ctags --version
 **From a marketplace:**
 
 ```bash
-claude plugin marketplace add https://github.com/YOURUSER/code-index.git
+claude plugin marketplace add https://github.com/kcem/code-index.git
 claude plugin install code-index@code-index
 ```
 
 **Or clone and add locally:**
 
 ```bash
-git clone https://github.com/YOURUSER/code-index.git
+git clone https://github.com/kcem/code-index.git
 claude plugin marketplace add /path/to/code-index
 claude plugin install code-index@code-index
 ```
@@ -64,7 +64,7 @@ Copilot auto-discovers skills from `.github/skills/`.
 **Or install as a plugin:**
 
 ```bash
-copilot plugin install YOURUSER/code-index
+copilot plugin install kcem/code-index
 ```
 
 ### pi.dev
@@ -72,7 +72,7 @@ copilot plugin install YOURUSER/code-index
 **From Git:**
 
 ```bash
-pi install git:github.com/YOURUSER/code-index
+pi install git:github.com/kcem/code-index
 ```
 
 **From npm** (after publishing):
