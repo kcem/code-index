@@ -112,4 +112,6 @@ universal-ctags supports 100+ languages. To add more, the agent extends the `.ct
 
 ## Support
 
-If you find this useful, consider [buying me a coffee](https://buycoffee.to/kcem).
+100% free, 100% open source, 100% powered by coffee. Saved your tokens? A coffee keeps the next plugin brewing.
+
+[Buy me a coffee](https://buycoffee.to/kcem)
