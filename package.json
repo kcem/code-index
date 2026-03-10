@@ -1,0 +1,15 @@
+{
+  "name": "pi-code-index",
+  "version": "0.1.0",
+  "description": "Token-efficient codebase exploration via universal-ctags — symbol search, outlines, and precise code retrieval without reading whole files",
+  "keywords": ["pi-package", "ctags", "code-index", "symbol-search"],
+  "author": "KCem",
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://buycoffee.to/kcem"
+  },
+  "pi": {
+    "skills": ["./skills"]
+  }
+}

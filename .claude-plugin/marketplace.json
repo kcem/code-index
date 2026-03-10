@@ -1,0 +1,17 @@
+{
+  "name": "code-index",
+  "owner": {
+    "name": "KCem"
+  },
+  "metadata": {
+    "description": "Token-efficient codebase exploration via universal-ctags"
+  },
+  "plugins": [
+    {
+      "name": "code-index",
+      "source": ".",
+      "description": "Token-efficient codebase exploration via universal-ctags — symbol search, outlines, and precise code retrieval without reading whole files",
+      "version": "0.1.0"
+    }
+  ]
+}
