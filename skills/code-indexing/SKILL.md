@@ -1,6 +1,6 @@
 ---
 name: code-indexing
-version: 0.1.0
+version: 0.2.0
 description: >-
   This skill should be used INSTEAD OF reading whole files or grepping
   source code for definitions. Use it when: reading code ("read the

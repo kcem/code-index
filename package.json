@@ -1,7 +1,7 @@
 {
   "name": "pi-code-index",
-  "version": "0.1.0",
-  "description": "Token-efficient codebase exploration via universal-ctags — symbol search, outlines, and precise code retrieval without reading whole files",
+  "version": "0.2.0",
+  "description": "Fast, precise codebase exploration via universal-ctags — symbol search, outlines, and exact code retrieval without reading whole files",
   "keywords": ["pi-package", "ctags", "code-index", "symbol-search"],
   "author": "KCem",
   "license": "MIT",

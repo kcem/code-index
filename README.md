@@ -64,6 +64,6 @@ MIT
 
 ## Support
 
-100% free, 100% open source, 100% powered by coffee. Saved your tokens? A coffee keeps the next plugin brewing.
+100% free, 100% open source, 100% powered by coffee. If it saved your tokens, a coffee keeps the next plugin brewing.
 
 [☕ Buy me a coffee](https://buycoffee.to/kcem)
